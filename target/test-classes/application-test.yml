@@ -1,0 +1,6 @@
+kalah:
+  pit:
+    stones: 6
+
+server:
+  port: 6969

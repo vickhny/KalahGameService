@@ -1,0 +1,14 @@
+# Kalah game configuration
+kalah:
+  pit:
+    stones: 6
+
+server:
+  port: 8090
+logging:
+  level:
+    root: info
+
+spring:
+  devtools:
+    add-properties: false

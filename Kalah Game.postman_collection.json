@@ -1,0 +1,50 @@
+{
+	"info": {
+		"_postman_id": "d3807b3d-97dd-403e-a5f4-bd9028595b65",
+		"name": "Kalah Game",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "​Create new game",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8090/games",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8090",
+					"path": [
+						"games"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Play game",
+			"request": {
+				"method": "PUT",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8090/games/d15c85fd-3e16-4a5a-afaf-6037be88431f/pits/1",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8090",
+					"path": [
+						"games",
+						"d15c85fd-3e16-4a5a-afaf-6037be88431f",
+						"pits",
+						"1"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
